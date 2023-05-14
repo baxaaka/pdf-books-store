@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  color: #0d0a0b;
+}
+body {
+  /* background-color: black; */
+}
+.main {
+  /* background-color: black; */
+  color: white;
+  width: 100%;
+  height: 150vh;
+}
+.header {
+  /* background-color: #fefae0; */
+  display: flex;
+  width: 100%;
+  height: 100px;
+  /* outline: 1px solid white; */
+  outline: 1px solid #e5e5e5;
+}
+.headerbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgb(90, 139, 182); */
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+.search {
+  width: 50%;
+  background-color:  #68cb5b;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  border-radius: 5px;
+  border: none;
+  outline: 1px solid #68cb5b;
+}
+.search input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: none;
+  outline: 1px solid #68cb5b;
+  text-align: center;
+  background-color: #f3eff5;
+  color: #0d0a0b;
+}
+.search span{
+    /* background-color: red; */
+    position: relative;
+    right:10px ; 
+    transform: scale(1.3);
+
+}
+/* seaction */
+.section {
+  /* background-color: red; */
+  width: 100%;
+  height: 100vh;
+}
+.box {
+  /* background-color: rgb(128, 83, 0); */
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+}
+.cards {
+  /* background-color: rgb(37, 48, 37); */
+  width: 70%;
+  height: 50vh;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+
+  /* scroll-behavior:smooth */
+  /* overflow-x: auto; */
+}
+.card {
+  /* background-color: #2a9d8f; */
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  /* border: 1px solid white; */
+  border-radius: 5px;
+  /* text-align: center; */
+
+  outline: 1px solid #e5e5e5;
+
+  font-size: 12px;
+ 
+}
+.bxcard{
+    /* background-color: red; */
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.material-symbols-outlined {
+}
+
+.cards p {
+ 
+}
+.cards  .author{
+    
+}
+.cards .category {
+   
+}
+.cards .read{
+/* background-color: rgb(255, 80, 249); */
+border: none;
+ outline: 1px solid #e5e5e5;
+  background-color: #588157;
+  border-radius: 2px;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  right: 130px;
+  bottom: 0;
+}
+.cards .dowload {
+  background-color: red;
+  border: none;
+  width: 100px;
+  height: 30px;
+  outline: 1px solid #e5e5e5;
+  background-color: #68cb5b;
+  position: absolute;
+  right: 0;
+  border-radius: 2px;
+  bottom: 0;
+
+}
